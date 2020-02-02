@@ -1,0 +1,90 @@
+.panelToolsBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.panelToolsInput{
+    max-width: 500px;
+    width: 100%;
+    font-size: 22px;
+    height: 30px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 4px;
+    border: solid 1px #b7b0b0;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.panelToolsInput:focus{
+    background-color:#f1f1f1;
+}
+
+.panelToolstButton{
+    margin: 20px 0px 20px 5px;
+    border-radius: 4px;
+    border: 1px solid #b7b0b0;
+    min-width: 70px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.importExportButtonsBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.panelToolstButton:hover{
+    background-color:#f1f1f1;
+}
+
+.panelToolstButtonImport{
+    border-radius: 4px;
+    border: 1px solid #b7b0b0;
+    min-width: 70px;
+    cursor: pointer;
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 5px 8px;
+    transition: 0.5s;
+}
+
+.panelToolstButtonImport:hover{
+    background-color:#f1f1f1;
+}
+
+.custom-file-input{
+    transition: 0.5s;
+    height: 25px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'import file';
+    display: inline-block;
+    background: linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #b7b0b0;
+    min-width: 70px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.custom-file-input:hover::before {
+    background-color:#f1f1f1;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}

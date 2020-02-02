@@ -1,0 +1,16 @@
+.canvasCell{
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: solid 1px #b7b0b0;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 4px;
+}
+.canvasRow{
+    display: flex;
+    justify-content: center;
+}
